@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-warning: #ffd050;
+  --bg-primary: #592ea9;
+  --bg-info: #fbf6ea;
+  --bg-darkLight: #ffffff;
+  --bg-Lightblue: #232536;
+}
+
+.menu-list:hover {
+  color: #ffd050;
+}
+.menu-list {
+  font-family: "inter" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+.subscribe {
+  font-family: "Sen" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+  background-color: white;
+}
+.image {
+  width: 100%;
+  object-fit: "cover";
+}
+.posted {
+  font-family: "Inter" sans-serif;
+  font-weight: 500;
+  font-style: 16px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.step {
+  font-family: "sen" sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #232536;
+}
+.by-text {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+  letter-spacing: 2px;
+}
+.by-text1 {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+}
+.by-text2 {
+  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+.james {
+  color: #ffd050;
+}
+.by-text2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter" sans-serif;
+  color: #232536;
+}
+.Viewlist {
+  text-align: right;
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.alltext {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "sen" sans-serif;
+  text-align: center;
+}
+.card-head {
+  font-family: "Sen";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: #232536;
+}
+.card-head1 {
+  font-family: "Sen";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #232536;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one:nth-child(2) {
+  background-color: #fbf6ea;
+}
+.lininig-main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.firstline {
+  width: 40%;
+  height: 10px;
+  background-color: #ffd050;
+}
+.firstlineone {
+  width: 20%;
+  height: 10px;
+  background-color: #592ea9;
+}
+.abouttext {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.aboutheading {
+  font-family: "Sen";
+  font-size: 29px;
+  font-weight: 700;
+  text-align: left;
+}
+.aboutgraph {
+  font-family: "Inter" sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #6d6e76;
+}
+.mainbtn {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.redbtn {
+  font-family: " Sen" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+.iconarrow {
+  margin-top: 4px;
+  height: 15px;
+  width: 15px;
+  color: blue;
+}
+.container01 {
+  background: #f4f0f8;
+}
+.onecontaint {
+  padding: 30px;
+}
+.choose {
+  font-family: " Sen" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.busimg {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+.cardbusines1 {
+  padding: 20px;
+  border: 1px solid hsl(233, 33%, 80%);
+}
+.cardbusines2 {
+  padding: 20px;
+  background-color: #ffd050;
+}
+.busicars {
+  font-family: "Sen" sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+.busipara {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.turisum {
+  width: 100%;
+  object-fit: fill;
+}
+.secparagraph {
+  font-family: "Sen" sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+.join {
+  font-family: "Sen" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #232536;
+}
+.pargraph {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #232536;
+}
+.lastlogo {
+  font-weight: bold;
+  font-family: "sem" sans-serif;
+  color: #f4f0f8;
+}
+.last-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: right;
+  list-style: none;
+}
+.item-list {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+.item-list:hover {
+  color: #ffd050;
+}
+.subscribe1 {
+  font-family: "Sen" sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+.inputbox-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-box {
+  outline: none;
+  border: 1px solid #ffd050;
+}
+.bg-container {
+  background-color: #232536;
+}
+.mainicons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+.iconsettings {
+  height: 30px;
+  width: 30px;
+  color: #f4f0f8;
+}
+.maincotact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fitness {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #f4f0f8;
+}
+.hello {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #fbf6ea;
+}
